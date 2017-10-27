@@ -1,0 +1,14 @@
+wp_payflow.admin_settings:
+  path: '/admin/config/services/wp-payflow'
+  defaults:
+    _form: '\Drupal\wp_payflow\Form\SettingsForm'
+    _title: 'WP Payflow settings'
+  requirements:
+    _permission: 'administer site configuration'
+wp_payflow.basic_payment:
+  path: '/wp-payflow/basic-payment'
+  defaults:
+    _form: '\Drupal\wp_payflow\Form\BasicPaymentForm'
+    _title: 'Basic Payment'
+  requirements:
+    _access: "TRUE"

@@ -1,0 +1,5 @@
+wp_payflow.admin_settings:
+  title: 'WP Payflow settings'
+  description: 'Configure WP Payflow.'
+  route_name: wp_payflow.admin_settings
+  parent: system.admin_config_services

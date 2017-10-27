@@ -1,0 +1,4 @@
+name: WP Payflow
+type: module
+description: WP Payflow demonstration.
+core: 8.x

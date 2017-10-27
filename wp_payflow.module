@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * wp_payflow.module
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function wp_payflow_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'wp_payflow.basic_payment':
+      return '<p>' . t('Implementation of a basic payment using Payflow.') . '</p>';
+  }
+}
